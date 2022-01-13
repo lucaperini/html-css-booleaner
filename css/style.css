@@ -1,7 +1,110 @@
-.prova {
-    background-image: url(img/pattern.png);
+header {
+    background-image: url(../img/pattern.png);
+    background-color: cornflowerblue;
     background-repeat: repeat-x;
-    background-size: auto;
-    
+    background-size: contain;
+    height: 150px;
+    width:71%;
+}
 
+h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+h3 {
+    color: darkgrey;
+
+}
+
+.logo {
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.meta-articolo {
+    font-weight: bold;
+    font-size:20px;
+    color:darkgrey;
+    line-height: 5px;
+    margin-bottom:0;
+}
+
+.autore-articolo {
+    color: cornflowerblue;
+}
+
+.data-articolo {
+
+    font-weight: bold;
+    font-size:12px;
+    line-height: 2px;
+    color:darkgrey;
+    margin-bottom: 50px;
+}
+
+.didascalia {
+    font-size: 12px;
+    line-height: 2px;
+}
+
+.testo {
+    margin-top:40px;
+    width: 71%;
+
+}
+
+.testo-evidenziato {
+    background-color: yellow;
+}
+
+.testo-lista {
+    
+    padding-left:15px;
+    
+}
+
+table {
+    width:71%;
+    border-collapse: collapse;
+}
+
+tr {
+    margin:0;
+    padding:0;
+    
+}
+
+th {
+    width:33%;
+    background-color: cornflowerblue;
+    color:#fff;
+}
+
+.sfondo-azzurro {
+    background-color: rgba(162, 190, 241,0.2);
+    margin:0;
+}
+
+#foto-uno {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width:300px;
+    height:200px;
+    color: white;
+    font-size: 25px;
+    padding-left:20px;
+    
+}
+
+#foto-due {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    width:300px;
+    height:200px;
+    color: white;
+    font-size: 25px;
+    padding-left:20px;
 }
