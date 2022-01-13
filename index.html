@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Css Booleaner</title>
-    <link rel="stylesheet" type="texty/css" src="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
 
-    <div class="prova">
-        <img src="img/logo.svg" width="150" height="75">
-    </div>
+    <header>
+        <img class="logo" src="img/logo.svg" width="200" height="125">
+    </header>
 
     <main>
         
         <!-- sezione titolo -->
         
         <section>
-        <h1>Internet deve essere al servizio del "bene pubblico": il
-            manifesto di Tim Berners-Lee</h1>
-        <p>Scritto da <span>The Booleaner</span></p>    
-        <p>il 10/10/2020</p>
+            <h1>Internet deve essere al servizio del "bene pubblico":<br>il
+            manifesto di Tim Berners-Lee</h1> 
+            <p class="meta-articolo">Scritto da <span class="autore-articolo">The Booleaner</span></p>    
+            <p class="data-articolo">il 10/10/2020</p>
         </section>
         
         <!-- Sezione foto berners-lee con didascalie  -->
@@ -30,80 +31,90 @@
             
             <img src="img/tim-1.jpg" alt="tim-berners-lee 1">
             <img src="img/tim-2.jpg" alt= "tim-berners-lee 2">
-            <p>Ist Photo: Tohn & and James L. Knight Foundation, by Scott Senrichsen</p>
-            <p>2nd Photo: Wikimedia, by Paul Clarke</p>
+            <p class="didascalia">Ist Photo: Tohn & and James L. Knight Foundation, by Scott Senrichsen</p>
+            <p class="didascalia">2nd Photo: Wikimedia, by Paul Clarke</p>
 
         </section>
 
-        <!-- Sezione primo testo con evidenziazione, secondo testo puntato, tabella, secondo testo con evidenziazione -->
+        <!-- Sezione testo con evidenziazione -->
 
         <section>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis quam impedit nobis itaque dolorem earum! Cumque aliquid earum doloremque fuga voluptates perspiciatis vel itaque architecto perferendis nam. Totam, aspernatur? 
-                Rerum, ut enim? Accusantium voluptas quisquam esse fugiat cumque reiciendis iusto, sapiente temporibus eligendi est minus eaque nesciunt necessitatibus? Quis earum at distinctio ut maiores tempora, quod velit sint vitae.
+            <p class="testo">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis quam impedit nobis itaque dolorem earum! Cumque aliquid earum doloremque fuga voluptates perspiciatis vel itaque architecto perferendis nam. <span class="testo-evidenziato">Totam, aspernatur? 
+                Rerum, ut enim?</span> Accusantium voluptas quisquam esse fugiat cumque reiciendis iusto, sapiente temporibus eligendi est minus eaque nesciunt necessitatibus? Quis earum at distinctio ut maiores tempora, quod velit sint vitae.
                 Dolorem eaque, corporis, aliquam voluptatibus magnam nulla quam pariatur officiis, voluptatem tempora similique consectetur! Voluptates delectus minima debitis sunt sint commodi ex fuga dolores voluptate blanditiis quae, totam eveniet fugit!
             </p>
-            <ul>
+        </section>
+            
+            <!-- Sezione testo-lista -->
+        
+        <section>
+
+            <ul class="testo-lista">
                 <li><p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
                 <li><p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ca commodo consequat.</p></li>
                 <li><p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
                 
             </ul>
+        </section>
 
+            <!-- Sezione tabella  -->
         
+        <section>
 
-        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                    </tr>
+                </thead>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere provident deleniti sed praesentium repellendus, corrupti quam, voluptatum culpa assumenda nesciunt. Officiis.
-                    Eius sapiente atque nobis temporibus veritatis voluptatum incidunt qui quo saepe natus tempora, dolores a. Sint asperiores odit, eveniet blanditiis deleniti, odio veritatis incidunt explicabo fugiat id error, quae placeat?</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere provident deleniti sed praesentium repellendus, corrupti quam, voluptatum culpa assumenda nesciunt. Officiis.
-                    Eius sapiente atque nobis temporibus veritatis voluptatum incidunt qui quo saepe natus tempora, dolores a. Sint asperiores odit, eveniet blanditiis deleniti, odio veritatis incidunt explicabo fugiat id error, quae placeat?</td>
-                </tr>
-            </tbody>
+                <tbody>
+                    <tr class="sfondo-azzurro">
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere</td>
+                    </tr>
+                </tbody>
             
-            <tfoot>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere provident deleniti sed praesentium repellendus, corrupti quam, voluptatum culpa assumenda nesciunt. Officiis.
-                    Eius sapiente atque nobis temporibus veritatis voluptatum incidunt qui quo saepe natus tempora, dolores a. Sint asperiores odit, eveniet blanditiis deleniti, odio veritatis incidunt explicabo fugiat id error, quae placeat?</td>
-                </tr>
-            </tfoot>
+                <tfoot>
+                    <tr class="sfondo-azzurro">
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit vel fuga cupiditate voluptate necessitatibus laboriosam in facere</td>
+                    </tr>
+                </tfoot>
                 
             
-        </table>
+            </table>
 
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis quam impedit nobis itaque dolorem earum! Cumque aliquid earum doloremque fuga voluptates perspiciatis vel itaque architecto perferendis nam. Totam, aspernatur? 
-            Rerum, ut enim? Accusantium voluptas quisquam esse fugiat cumque reiciendis iusto, sapiente temporibus eligendi est minus eaque nesciunt necessitatibus? Quis earum at distinctio ut maiores tempora, quod velit sint vitae.
+        </section>
+
+        <!-- Sezione testo evidenziato 2 -->
+
+        <section>
+            <p class="testo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis quam impedit nobis itaque dolorem earum! Cumque aliquid earum doloremque fuga voluptates perspiciatis vel itaque architecto perferendis nam. <span class="testo-evidenziato">Totam, aspernatur? 
+            Rerum, ut enim?</span> Accusantium voluptas quisquam esse fugiat cumque reiciendis iusto, sapiente temporibus eligendi est minus eaque nesciunt necessitatibus? Quis earum at distinctio ut maiores tempora, quod velit sint vitae.
             Dolorem eaque, corporis, aliquam voluptatibus magnam nulla quam pariatur officiis, voluptatem tempora similique consectetur! Voluptates delectus minima debitis sunt sint commodi ex fuga dolores voluptate blanditiis quae, totam eveniet fugit!
-        </p>
-
-
+            </p>
+        </section>
+        
     </main>
 
     <footer>
+        <!-- Sezione articoli di approfondimento -->
         <section>
             <h3>Potrebbero interessarti</h3>
-            <img src="img/graph.jpg"><br>
-            <img src="img/monitor.jpg">
+            <p id="foto-uno">Lorem ipsum</p>
+            <p id="foto-due">Lorem ipsum</p>
         </section>
 
 
